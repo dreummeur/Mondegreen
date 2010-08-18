@@ -33,8 +33,8 @@ test:
   reconnect: false
   database: Mondegreen_test
   pool: 5
-  username: root
-  password:
+  username: testrails
+  password: testrails
   socket: /var/run/mysqld/mysqld.sock
 
 production:
