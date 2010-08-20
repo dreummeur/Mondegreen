@@ -1,0 +1,58 @@
+body {
+    background: #fff;
+}
+
+#header {
+    padding-top: 20px;
+}
+
+#header img {
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#content {
+    margin-top: 1em;
+    padding: 20px;
+}
+
+/* Links */
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cccccc;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #666666;
+}
+
+/* Navigation */
+
+ul.navigation {
+    padding-left: 1em
+}
+
+.navigation li {
+    background: url("../images/round_bullet_small.png") no-repeat;
+    display: inline-block;
+    padding-top: 0;
+    padding-right: 2em;
+    padding-left: 22px;
+    padding-bottom: 0;
+    font-size: 180%;
+}
+
+.navigation li a {
+    color: #817f71;
+    padding: 0 5px;
+    font-weight: bold;
+    text-shadow: #d5d5d5 2px 2px 2px;
+}
+
