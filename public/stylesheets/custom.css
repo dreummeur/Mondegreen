@@ -40,12 +40,8 @@ ul.navigation {
 }
 
 .navigation li {
-    background: url("../images/round_bullet_small.png") no-repeat;
     display: inline-block;
-    padding-top: 0;
-    padding-right: 2em;
-    padding-left: 22px;
-    padding-bottom: 0;
+    padding: 0 3em 0 3em;
     font-size: 180%;
 }
 
@@ -55,4 +51,10 @@ ul.navigation {
     font-weight: bold;
     text-shadow: #d5d5d5 2px 2px 2px;
 }
+
+.navigation_footer li {
+    display: inline-block;
+    padding: 0 9em 0 9em;    
+}
+
 
