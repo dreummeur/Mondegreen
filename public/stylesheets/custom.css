@@ -52,9 +52,9 @@ ul.navigation {
     text-shadow: #d5d5d5 2px 2px 2px;
 }
 
-.navigation_footer li {
+#footer .navigation {
     display: inline-block;
-    padding: 0 9em 0 9em;    
+    padding: 0 9em 0 9em;
 }
 
 

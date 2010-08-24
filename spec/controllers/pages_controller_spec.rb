@@ -48,16 +48,16 @@ describe PagesController do
 
   end
 
-  describe "GET 'help'" do
+  describe "GET 'media'" do
 
     it "should be successful" do
-      get 'help'
+      get 'media'
       response.should be_success
     end
 
     it "should have the right title" do
-      get 'help'
-      response.should have_tag("title", @base_title + "Help")
+      get 'media'
+      response.should have_tag("title", @base_title + "Media")
     end
 
   end
