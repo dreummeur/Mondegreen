@@ -20,12 +20,12 @@ a {
 
 a:hover {
     color: #cccccc;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
-a:visited {
-    color: #666666;
-}
+/*a:visited {*/
+    /*color: #666666;*/
+/*}*/
 
 /* Navigation */
 
@@ -34,11 +34,34 @@ a:visited {
     font-size: 180%;
 }
 
-.navigation li a {
-    color: #817f71;
-    padding: 0 5px;
-    font-weight: bold;
+/*.navigation li a {*/
+    /*color: #817f71;*/
+    /*padding: 0 5px;*/
+    /*font-weight: bold;*/
     /*text-shadow: #d5d5d5 2px 2px 2px;*/
+/*}*/
+
+#news_li a {
+    color: #47463d;
+    /*text-shadow: #d5d5d5 0px 0px 4px;*/
+}
+
+#media_li a {
+    /*color: #9e9c8a;*/
+    color: #757464;
+    /*text-shadow: #9e9c8a 0px 0px 4px;*/
+}
+
+#about_li a {
+    /*color: #ccc9b3;*/
+    color: #b9b6a2;
+    /*text-shadow: #ccc9b3 0px 0px 4px;*/
+}
+
+#contact_li a {
+    /*color: #f2eed4;*/
+    color: #f2eed4;
+    /*text-shadow: #f2eed4 0px 0px 4px;*/
 }
 
 #header .navigation {
@@ -50,7 +73,7 @@ a:visited {
 }
 
 #header .navigation li {
-    padding: 0 3em 0 3em;
+    padding: 0 3.2em 0 3.2em;
 }
 
 #header .navigation li a {
