@@ -3,12 +3,31 @@ body {
 }
 
 #header {
-    padding:20px;
+    padding-top:20px;
 }
 
 #content {
-    margin-top: 1em;
+    margin-top: 2em;
     padding: 20px;
+}
+
+#footer {
+    padding:20px;
+}
+
+.round {
+    -moz-border-radius:    15px;
+    -webkit-border-radius: 15px;
+    border-radius:         15px;
+}
+
+.shadow {
+    -moz-box-shadow: 1px 1px 12px #757464;
+    box-shadow: 1px 1px 12px #757464;
+}
+
+.with_border {
+    border: 2px solid #acaa96;    
 }
 
 /* Links */
@@ -20,12 +39,8 @@ a {
 
 a:hover {
     color: #cccccc;
-    /*text-decoration: underline;*/
 }
 
-/*a:visited {*/
-    /*color: #666666;*/
-/*}*/
 
 /* Navigation */
 
@@ -34,46 +49,33 @@ a:hover {
     font-size: 180%;
 }
 
-/*.navigation li a {*/
-    /*color: #817f71;*/
-    /*padding: 0 5px;*/
-    /*font-weight: bold;*/
-    /*text-shadow: #d5d5d5 2px 2px 2px;*/
-/*}*/
+ul {
+    margin:0;
+}
 
 #news_li a {
-    color: #47463d;
-    /*text-shadow: #d5d5d5 0px 0px 4px;*/
+    color: #757464;
 }
 
 #media_li a {
-    /*color: #9e9c8a;*/
-    color: #757464;
-    /*text-shadow: #9e9c8a 0px 0px 4px;*/
+    color: #b9b6a2;
 }
 
 #about_li a {
-    /*color: #ccc9b3;*/
     color: #b9b6a2;
-    /*text-shadow: #ccc9b3 0px 0px 4px;*/
 }
 
 #contact_li a {
-    /*color: #f2eed4;*/
     color: #f2eed4;
-    /*text-shadow: #f2eed4 0px 0px 4px;*/
 }
 
 #header .navigation {
-    background: url(../images/banner_header_up.jpg) no-repeat;
+    background: url(../images/banner_header.jpg) no-repeat;
     padding: 11em 0 0.5em 0;
-    -moz-border-radius:    15px;
-    -webkit-border-radius: 15px;
-    border-radius:         15px;
 }
 
 #header .navigation li {
-    padding: 0 3.2em 0 3.2em;
+    padding: 0 3.75em 0 3.75em;
 }
 
 #header .navigation li a {
@@ -81,7 +83,53 @@ a:hover {
 }
 
 #footer .navigation li {
-    padding: 0 5em 0 5em;
+    padding: 0 5.5em 0 5.5em;
 }
 
+#inner_content {
+    padding:0 1.5em 0.5em 1.5em;
+    height:375px;
+    font-size:120%;
+    text-align:justify;
+    line-height:2em;
+}
+
+
+/* Text */
+
+#content_header {
+    padding:1em 0 1em 0;
+    color: #f7f2cc;
+    text-shadow:#000 1px 1px 4px;
+}
+
+.emphase {
+    font-size:125%;
+    font-weight:bolder;
+}
+
+
+/* Images */
+
+#home_img_container {
+    background: url(../images/quai_mondegreen.jpg) no-repeat;
+    width: 218px;
+    height: 360px;
+    float:right;
+}
+
+#home_text_container {
+    margin-right:260px;
+}
+
+#about_img_container {
+    background: url(../images/quai_dos.jpg) no-repeat;
+    width: 680px;
+    height: 220px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+
+}
 
