@@ -1,13 +1,36 @@
 <body>
-  <h2 align="center" id="content_header">A propos du groupe</h2>
-  <div id="inner_content">
-    <p>
-      Mondegreen est à l'origine un duo créé par <span class="emphase">Patrice</span> et <span class="emphase">François</span>
-      au cours de l'été 2003. Tous deux n'hésitaient alors pas à changer d'instrument pour interpréter les chansons du groupe,
-      que ce soit sur scène ou en studio. En 2006, <span class="emphase">Benjamin</span> rejoint la formation à la basse, 
-      suivi par <span class="emphase">Jean-Baptiste</span> à la batterie au début de l'année 2010.
-    </p>
-    <div id="about_img_container" class="round with_border">
-    </div>
+<%= javascript_include_tag :defaults %>
+<div id="inner_content">
+  <p>
+    <%=
+        link_to_function("Mondegreen") do |page|
+            page[:dynamic_img].replace_html :partial => 'focus', :locals => {:member => "about_mg"}
+        end
+    %>
+    <br/>
+    <%= link_to_function("Patrice") do |page|
+            page[:dynamic_img].replace_html :partial => 'focus', :locals => {:member => "about_pb"}
+        end
+    %>
+    <br/>
+    <%= link_to_function("François") do |page|
+            page[:dynamic_img].replace_html :partial => 'focus', :locals => {:member => "about_fd"}
+        end
+    %>
+    <br/>
+    <%= link_to_function("Benjamin") do |page|
+            page[:dynamic_img].replace_html :partial => 'focus', :locals => {:member => "about_bb"}
+        end
+    %>
+    <br/>
+    <%= link_to_function("Jean-Baptiste") do |page|
+            page[:dynamic_img].replace_html :partial => 'focus', :locals => {:member => "about_jbv"}
+        end
+    %>
+    <br/>
+  </p>
+  <div id="dynamic_img">
+    <div id="about_mg" class="round with_border about_img"></div>
   </div>
+</div>
 </body>

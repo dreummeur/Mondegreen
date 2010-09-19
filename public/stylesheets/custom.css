@@ -86,21 +86,27 @@ ul {
     padding: 0 5.5em 0 5.5em;
 }
 
-#inner_content {
-    padding:0 1.5em 0.5em 1.5em;
-    height:375px;
+.inner_content {
+    height:410px;
+    overflow:auto;
+}
+
+.post {
+    margin:10px;
     font-size:120%;
     text-align:justify;
-    line-height:2em;
+    line-height:1.8em;
 }
 
 
 /* Text */
 
-#content_header {
-    padding:1em 0 1em 0;
-    color: #f7f2cc;
-    text-shadow:#000 1px 1px 4px;
+.content_header {
+    font-size:250%;
+    font-weight:bolder;
+    background: #f7f7e2;
+    text-align:center;
+    margin:5px 370px 30px 370px;
 }
 
 .emphase {
@@ -116,20 +122,49 @@ ul {
     width: 218px;
     height: 360px;
     float:right;
+    margin-right:20px;
 }
 
-#home_text_container {
+#bethere_img_container {
+    background: url(../images/quai_mondegreen.jpg) no-repeat;
+    width: 218px;
+    height: 360px;
+    float:right;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.home_text_wrapper {
+    background: #f7f7e2;
     margin-right:260px;
 }
 
-#about_img_container {
-    background: url(../images/quai_dos.jpg) no-repeat;
-    width: 680px;
-    height: 220px;
-    margin-top: 0;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 1em;
-
+.home_text {   
+    padding:1.5em;
 }
 
+.about_img {
+    width: 680px;
+    height: 220px;
+    margin: 0 auto 1em;
+}
+
+#about_mg {
+    background: url(../images/quai_dos.jpg) no-repeat;
+}
+
+#about_pb {
+    background: url(../images/about_patrice.jpg) no-repeat;
+}
+
+#about_fd {
+    background: url(../images/about_francois.jpg) no-repeat;
+}
+
+#about_bb {
+    background: url(../images/about_benjamin.jpg) no-repeat;
+}
+
+#about_jbv {
+    background: url(../images/about_jeanbaptiste.jpg) no-repeat;
+}
