@@ -1,19 +1,19 @@
-body {
-    background: #fff;
-}
+/*body {*/
+    /*background: #fff;*/
+/*}*/
 
-#header {
-    padding-top:20px;
-}
+/*#header {*/
+    /*padding-top:20px;*/
+/*}*/
 
-#content {
-    margin-top: 2em;
-    padding: 20px;
-}
+/*#content {*/
+    /*margin-top: 2em;*/
+    /*padding: 20px;*/
+/*}*/
 
-#footer {
-    padding:20px;
-}
+/*#footer {*/
+    /*padding:20px;*/
+/*}*/
 
 .round {
     -moz-border-radius:    15px;
@@ -23,11 +23,12 @@ body {
 
 .shadow {
     -moz-box-shadow: 1px 1px 12px #757464;
+    -webkit-box-shadow: 1px 1px 12px #757464; 
     box-shadow: 1px 1px 12px #757464;
 }
 
 .with_border {
-    border: 2px solid #acaa96;    
+    border: 2px solid #acaa96;
 }
 
 /* Links */
@@ -83,7 +84,7 @@ ul {
 }
 
 #footer .navigation li {
-    padding: 0 5.5em 0 5.5em;
+    padding: 0 5.7em 0 5.7em;
 }
 
 .inner_content {
@@ -101,37 +102,49 @@ ul {
 
 /* Text */
 
+.text-wrapper {
+    padding:1.5em;
+    background: #f7f7e2;  
+}
+
+.inner-text {
+    text-align:justify;
+    margin-right:240px;
+}
+
 .content_header {
-    font-size:250%;
-    font-weight:bolder;
-    background: #f7f7e2;
+    /*font-size:250%;*/
+    /*font-weight:bolder;*/
+    /*background: #f7f7e2;*/
     text-align:center;
-    margin:5px 370px 30px 370px;
+    /*margin:5px 370px 30px 370px;*/
 }
 
 .emphase {
     font-size:125%;
+    /*font-weight:bold;*/
+    text-decoration:underline;
+}
+
+.subtitle {
+    font-size:150%;
     font-weight:bolder;
 }
 
-
 /* Images */
 
-#home_img_container {
-    background: url(../images/quai_mondegreen.jpg) no-repeat;
+.img_container {
     width: 218px;
     height: 360px;
     float:right;
-    margin-right:20px;
+}
+
+#home_img_container {
+    background: url(../images/quai_mondegreen.jpg) no-repeat;
 }
 
 #bethere_img_container {
     background: url(../images/quai_mondegreen.jpg) no-repeat;
-    width: 218px;
-    height: 360px;
-    float:right;
-    margin-right:20px;
-    margin-bottom:20px;
 }
 
 .home_text_wrapper {
