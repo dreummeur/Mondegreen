@@ -41,8 +41,8 @@ production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: Mondegreen_production
+  database: mondegre_prod
   pool: 5
-  username: root
-  password: 
+  username: mondegre_prod
+  password: prod_rails
   socket: /var/run/mysqld/mysqld.sock

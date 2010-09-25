@@ -1,19 +1,3 @@
-/*body {*/
-    /*background: #fff;*/
-/*}*/
-
-/*#header {*/
-    /*padding-top:20px;*/
-/*}*/
-
-/*#content {*/
-    /*margin-top: 2em;*/
-    /*padding: 20px;*/
-/*}*/
-
-/*#footer {*/
-    /*padding:20px;*/
-/*}*/
 
 .round {
     -moz-border-radius:    15px;
@@ -87,19 +71,6 @@ ul {
     padding: 0 5.7em 0 5.7em;
 }
 
-.inner_content {
-    height:410px;
-    overflow:auto;
-}
-
-.post {
-    margin:10px;
-    font-size:120%;
-    text-align:justify;
-    line-height:1.8em;
-}
-
-
 /* Text */
 
 .text-wrapper {
@@ -107,53 +78,50 @@ ul {
     background: #f7f7e2;  
 }
 
-.inner-text {
+#text_bethere {
+    text-align:justify;
+    margin-right:320px;
+}
+
+#text_welcome {
     text-align:justify;
     margin-right:240px;
 }
 
-.content_header {
-    /*font-size:250%;*/
-    /*font-weight:bolder;*/
-    /*background: #f7f7e2;*/
+.main_title {
+    font-size:3em;
     text-align:center;
-    /*margin:5px 370px 30px 370px;*/
+    margin:0em;
+}
+
+.post_header {
+    font-size:2em;
+}
+
+.post_text {
+    font-size:1.2em;
 }
 
 .emphase {
-    font-size:125%;
-    /*font-weight:bold;*/
-    text-decoration:underline;
-}
-
-.subtitle {
-    font-size:150%;
     font-weight:bolder;
 }
 
 /* Images */
 
 .img_container {
-    width: 218px;
-    height: 360px;
     float:right;
 }
 
 #home_img_container {
+    width: 218px;
+    height: 360px;
     background: url(../images/quai_mondegreen.jpg) no-repeat;
 }
 
 #bethere_img_container {
-    background: url(../images/quai_mondegreen.jpg) no-repeat;
-}
-
-.home_text_wrapper {
-    background: #f7f7e2;
-    margin-right:260px;
-}
-
-.home_text {   
-    padding:1.5em;
+    width:300px;
+    height:400px;    
+    background: url(../images/flyer_be_there.jpg) no-repeat;
 }
 
 .about_img {
